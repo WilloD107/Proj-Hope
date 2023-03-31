@@ -1,11 +1,11 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
-using Tanya.Driver.Linux;
-using Tanya.Game.Apex;
-using Tanya.Logging;
+using Hope.Driver.Linux;
+using Hope.Game.Apex;
+using Hope.Logging;
 
-namespace Tanya
+namespace Hope
 {
     public static class Startup
     {

@@ -3,12 +3,12 @@ using System.Runtime.InteropServices;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Tanya.Driver.Linux;
-using Tanya.Driver.Linux.Enums;
-using Tanya.Game.Apex.Core;
-using Tanya.Game.Apex.Core.Interfaces;
+using Hope.Driver.Linux;
+using Hope.Driver.Linux.Enums;
+using Hope.Game.Apex.Core;
+using Hope.Game.Apex.Core.Interfaces;
 
-namespace Tanya.Game.Apex.Services
+namespace Hope.Game.Apex.Services
 {
     public class LinuxService : IDisposable, IHostedService
     {

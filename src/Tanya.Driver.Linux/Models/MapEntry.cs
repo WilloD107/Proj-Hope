@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
-using Tanya.Driver.Linux.Enums;
+using Hope.Driver.Linux.Enums;
 
-namespace Tanya.Driver.Linux.Models
+namespace Hope.Driver.Linux.Models
 {
     public class MapEntry
     {

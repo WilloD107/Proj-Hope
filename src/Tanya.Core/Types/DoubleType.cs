@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
-using Tanya.Core.Interfaces;
+using Hope.Core.Interfaces;
 
-namespace Tanya.Core.Types
+namespace Hope.Core.Types
 {
     [SuppressMessage("ReSharper", "UnusedMember.Global")]
     public class DoubleType : IType<double>

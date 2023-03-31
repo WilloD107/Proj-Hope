@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 using Microsoft.Extensions.Configuration;
-using Tanya.Core.Extensions;
+using Hope.Core.Extensions;
 
-namespace Tanya.Game.Apex.Feature.Sense
+namespace Hope.Game.Apex.Feature.Sense
 {
     public class Config
     {

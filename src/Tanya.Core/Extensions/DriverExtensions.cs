@@ -1,7 +1,7 @@
-﻿using Tanya.Core.Interfaces;
-using Tanya.Driver.Interfaces;
+﻿using Hope.Core.Interfaces;
+using Hope.Driver.Interfaces;
 
-namespace Tanya.Core.Extensions
+namespace Hope.Core.Extensions
 {
     public static class DriverExtensions
     {

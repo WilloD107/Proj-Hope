@@ -1,9 +1,9 @@
 ﻿using System.Globalization;
 using System.Text.RegularExpressions;
-using Tanya.Driver.Linux.Enums;
-using Tanya.Driver.Linux.Models;
+using Hope.Driver.Linux.Enums;
+using Hope.Driver.Linux.Models;
 
-namespace Tanya.Driver.Linux.Utilities
+namespace Hope.Driver.Linux.Utilities
 {
     public static class MapEntryParser
     {

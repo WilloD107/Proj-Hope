@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Tanya.Game.Apex.Services;
+using Hope.Game.Apex.Services;
 
-namespace Tanya.Game.Apex
+namespace Hope.Game.Apex
 {
     public static class Bootstrap
     {

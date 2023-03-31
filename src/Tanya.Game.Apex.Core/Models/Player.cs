@@ -1,13 +1,13 @@
 ﻿using System.Text.Json.Serialization;
-using Tanya.Core;
-using Tanya.Core.Extensions;
-using Tanya.Core.Models;
-using Tanya.Core.Types;
-using Tanya.Driver.Interfaces;
-using Tanya.Game.Apex.Core.Interfaces;
-using Tanya.Game.Apex.Core.Utilities;
+using Hope.Core;
+using Hope.Core.Extensions;
+using Hope.Core.Models;
+using Hope.Core.Types;
+using Hope.Driver.Interfaces;
+using Hope.Game.Apex.Core.Interfaces;
+using Hope.Game.Apex.Core.Utilities;
 
-namespace Tanya.Game.Apex.Core.Models
+namespace Hope.Game.Apex.Core.Models
 {
     public class Player : IUpdatable
     {

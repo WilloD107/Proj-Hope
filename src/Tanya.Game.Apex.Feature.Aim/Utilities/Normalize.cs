@@ -1,4 +1,4 @@
-﻿namespace Tanya.Game.Apex.Feature.Aim.Utilities
+﻿namespace Hope.Game.Apex.Feature.Aim.Utilities
 {
     public static class Normalize
     {

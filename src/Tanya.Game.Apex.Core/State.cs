@@ -1,11 +1,11 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Text.Json.Serialization;
 using Microsoft.Extensions.Logging;
-using Tanya.Driver.Interfaces;
-using Tanya.Game.Apex.Core.Interfaces;
-using Tanya.Game.Apex.Core.Models;
+using Hope.Driver.Interfaces;
+using Hope.Game.Apex.Core.Interfaces;
+using Hope.Game.Apex.Core.Models;
 
-namespace Tanya.Game.Apex.Core
+namespace Hope.Game.Apex.Core
 {
     [SuppressMessage("ReSharper", "UnusedMember.Global")]
     public class State : Context, IUpdatable

@@ -1,6 +1,6 @@
-﻿using Tanya.Driver.Interfaces;
+﻿using Hope.Driver.Interfaces;
 
-namespace Tanya.Driver
+namespace Hope.Driver
 {
     public class EmptyDriver : IDriver
     {

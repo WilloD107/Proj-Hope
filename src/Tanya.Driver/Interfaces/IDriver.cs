@@ -1,4 +1,4 @@
-﻿namespace Tanya.Driver.Interfaces
+﻿namespace Hope.Driver.Interfaces
 {
     public interface IDriver
     {

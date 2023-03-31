@@ -1,7 +1,7 @@
-﻿using Tanya.Driver.Interfaces;
-using Tanya.Driver.Linux.Interop;
+﻿using Hope.Driver.Interfaces;
+using Hope.Driver.Linux.Interop;
 
-namespace Tanya.Driver.Linux
+namespace Hope.Driver.Linux
 {
     public class LinuxDriver : IDriver
     {

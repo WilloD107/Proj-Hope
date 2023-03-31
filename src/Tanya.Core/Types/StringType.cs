@@ -1,7 +1,7 @@
 ﻿using System.Text;
-using Tanya.Core.Interfaces;
+using Hope.Core.Interfaces;
 
-namespace Tanya.Core.Types
+namespace Hope.Core.Types
 {
     public class StringType : IType<string>
     {

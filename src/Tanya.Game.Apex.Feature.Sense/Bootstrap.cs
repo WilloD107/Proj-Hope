@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Tanya.Game.Apex.Core.Interfaces;
+using Hope.Game.Apex.Core.Interfaces;
 
-namespace Tanya.Game.Apex.Feature.Sense
+namespace Hope.Game.Apex.Feature.Sense
 {
     public static class Bootstrap
     {

@@ -1,4 +1,4 @@
-﻿namespace Tanya.Game.Apex.Feature.Aim.Enums
+﻿namespace Hope.Game.Apex.Feature.Aim.Enums
 {
     public enum TargetType
     {

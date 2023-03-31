@@ -1,7 +1,7 @@
-﻿using Tanya.Core.Models;
-using Tanya.Game.Apex.Core.Models;
+﻿using Hope.Core.Models;
+using Hope.Game.Apex.Core.Models;
 
-namespace Tanya.Game.Apex.Feature.Aim.Interfaces
+namespace Hope.Game.Apex.Feature.Aim.Interfaces
 {
     public interface ITarget
     {

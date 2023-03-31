@@ -1,4 +1,4 @@
-﻿namespace Tanya.Game.Apex.Core
+﻿namespace Hope.Game.Apex.Core
 {
     public static class Constants
     {

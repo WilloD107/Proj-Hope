@@ -5,6 +5,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tanya.Game.Apex.Core\Tanya.Game.Apex.Core.csproj" />
+    <ProjectReference Include="..\Hope.Game.Apex.Core\Hope.Game.Apex.Core.csproj" />
   </ItemGroup>
 </Project>

@@ -2,11 +2,11 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Tanya.Driver;
-using Tanya.Game.Apex.Core;
-using Tanya.Game.Apex.Core.Interfaces;
+using Hope.Driver;
+using Hope.Game.Apex.Core;
+using Hope.Game.Apex.Core.Interfaces;
 
-namespace Tanya.Game.Apex.Services
+namespace Hope.Game.Apex.Services
 {
     public class WindowsService : IDisposable, IHostedService
     {

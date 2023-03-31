@@ -1,7 +1,7 @@
-﻿using Tanya.Driver.Interfaces;
-using Tanya.Game.Apex.Core.Interfaces;
+﻿using Hope.Driver.Interfaces;
+using Hope.Game.Apex.Core.Interfaces;
 
-namespace Tanya.Game.Apex.Core.Models
+namespace Hope.Game.Apex.Core.Models
 {
     public class PlayerList : EntityListFilter<Player>
     {

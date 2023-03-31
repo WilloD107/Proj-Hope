@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace Tanya.Driver.Linux.Models
+namespace Hope.Driver.Linux.Models
 {
     public class ProcessEntry
     {

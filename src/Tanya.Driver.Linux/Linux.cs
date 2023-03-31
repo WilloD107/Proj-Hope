@@ -1,7 +1,7 @@
-﻿using Tanya.Driver.Linux.Models;
-using Tanya.Driver.Linux.Utilities;
+﻿using Hope.Driver.Linux.Models;
+using Hope.Driver.Linux.Utilities;
 
-namespace Tanya.Driver.Linux
+namespace Hope.Driver.Linux
 {
     public class Linux
     {

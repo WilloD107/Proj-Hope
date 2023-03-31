@@ -1,7 +1,7 @@
-﻿using Tanya.Core.Models;
-using Tanya.Game.Apex.Feature.Aim.Utilities;
+﻿using Hope.Core.Models;
+using Hope.Game.Apex.Feature.Aim.Utilities;
 
-namespace Tanya.Game.Apex.Feature.Aim.Extensions
+namespace Hope.Game.Apex.Feature.Aim.Extensions
 {
     public static class ConfigExtensions
     {

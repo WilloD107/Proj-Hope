@@ -1,8 +1,8 @@
 ﻿using System.Runtime.CompilerServices;
-using Tanya.Core.Interfaces;
-using Tanya.Core.Models;
+using Hope.Core.Interfaces;
+using Hope.Core.Models;
 
-namespace Tanya.Core.Types
+namespace Hope.Core.Types
 {
     public class VectorType : IType<Vector>
     {

@@ -1,4 +1,4 @@
-﻿namespace Tanya.Core.Interfaces
+﻿namespace Hope.Core.Interfaces
 {
     public interface IType<T>
     {

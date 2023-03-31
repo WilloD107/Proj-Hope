@@ -1,6 +1,6 @@
-﻿using Tanya.Driver.Linux.Models;
+﻿using Hope.Driver.Linux.Models;
 
-namespace Tanya.Driver.Linux.Utilities
+namespace Hope.Driver.Linux.Utilities
 {
     public static class ProcessEntryParser
     {

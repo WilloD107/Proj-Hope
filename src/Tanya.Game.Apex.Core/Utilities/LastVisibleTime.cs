@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Text.Json.Serialization;
-using Tanya.Core;
-using Tanya.Game.Apex.Core.Interfaces;
+using Hope.Core;
+using Hope.Game.Apex.Core.Interfaces;
 
-namespace Tanya.Game.Apex.Core.Utilities
+namespace Hope.Game.Apex.Core.Utilities
 {
     [SuppressMessage("ReSharper", "CompareOfFloatsByEqualityOperator")]
     public class LastVisibleTime : IUpdatable

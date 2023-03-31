@@ -8,7 +8,7 @@
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tanya.Core\Tanya.Core.csproj" />
-    <ProjectReference Include="..\Tanya.Driver\Tanya.Driver.csproj" />
+    <ProjectReference Include="..\Hope.Core\Hope.Core.csproj" />
+    <ProjectReference Include="..\Hope.Driver\Hope.Driver.csproj" />
   </ItemGroup>
 </Project>

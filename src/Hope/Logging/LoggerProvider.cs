@@ -1,7 +1,7 @@
 ﻿using System.Collections.Concurrent;
 using Microsoft.Extensions.Logging;
 
-namespace Tanya.Logging
+namespace Hope.Logging
 {
     public class LoggerProvider : ILoggerProvider
     {

@@ -1,14 +1,14 @@
 ﻿using System.Diagnostics.CodeAnalysis;
-using Tanya.Core.Models;
-using Tanya.Game.Apex.Core;
-using Tanya.Game.Apex.Core.Interfaces;
-using Tanya.Game.Apex.Core.Models;
-using Tanya.Game.Apex.Feature.Aim.Enums;
-using Tanya.Game.Apex.Feature.Aim.Extensions;
-using Tanya.Game.Apex.Feature.Aim.Interfaces;
-using Tanya.Game.Apex.Feature.Aim.Utilities;
+using Hope.Core.Models;
+using Hope.Game.Apex.Core;
+using Hope.Game.Apex.Core.Interfaces;
+using Hope.Game.Apex.Core.Models;
+using Hope.Game.Apex.Feature.Aim.Enums;
+using Hope.Game.Apex.Feature.Aim.Extensions;
+using Hope.Game.Apex.Feature.Aim.Interfaces;
+using Hope.Game.Apex.Feature.Aim.Utilities;
 
-namespace Tanya.Game.Apex.Feature.Aim
+namespace Hope.Game.Apex.Feature.Aim
 {
     public class Feature : IFeature
     {

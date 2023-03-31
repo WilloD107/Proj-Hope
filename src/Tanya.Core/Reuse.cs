@@ -1,4 +1,4 @@
-﻿namespace Tanya.Core
+﻿namespace Hope.Core
 {
     public static class Reuse
     {
