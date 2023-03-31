@@ -1,4 +1,4 @@
-# Tanya
+# Hope
 
 "Victory. Such a tempting thing. Naturally, everyone wants to savor a taste." - Tanya von Degurechaff
 
