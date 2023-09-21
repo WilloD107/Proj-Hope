@@ -22,6 +22,7 @@ namespace Hope.Game.Apex.Services
             _config = config;
             _cts = new CancellationTokenSource();
             _http = new HttpClient();
+            _http.DefaultRequestHeaders.UserAgent.ParseAdd("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36");
             _logger = logger;
             _tcs = new TaskCompletionSource(TaskCreationOptions.RunContinuationsAsynchronously);
         }
