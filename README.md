@@ -142,7 +142,7 @@ apt install -y git
 4. Clone this repository:
 
 ```
-git clone https://github.com/XRadius/project-Hope
+git clone https://github.com/WilloD107/project-Hope
 ```
 
 5. Open the `project-Hope` directory:
