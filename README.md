@@ -142,13 +142,13 @@ apt install -y git
 4. Clone this repository:
 
 ```
-git clone https://github.com/WilloD107/project-Hope
+git clone https://github.com/WilloD107/Proj-Hope
 ```
 
-5. Open the `project-Hope` directory:
+5. Open the `Proj-Hope` directory:
 
 ```
-cd ~/project-Hope
+cd ~/Proj-Hope
 ```
 
 6. Enable execution of the *build script*:
@@ -165,12 +165,12 @@ chmod +x service-build.sh
 
 ## (6) Install Service
 
-We'll install `project-Hope` as a service:
+We'll install `Proj-Hope` as a service:
 
 1. Open the `bin` directory:
 
 ```
-cd ~/project-Hope/bin
+cd ~/Proj-Hope/bin
 ```
 
 2. Run the *installation script* and follow the instructions:
@@ -179,4 +179,4 @@ cd ~/project-Hope/bin
 ./service-install.sh
 ```
 
-Once you've followed these instructions, `project-Hope` is ready for use!
+Once you've followed these instructions, `Proj-Hope` is ready for use!
