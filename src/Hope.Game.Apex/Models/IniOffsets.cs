@@ -48,6 +48,7 @@ namespace Hope.Game.Apex.Models
         public uint PlayerDuckState => _ini.Get("RecvTable.DT_Player", "m_duckState");
         public uint PlayerGlowEnable => _ini.Get("RecvTable.DT_HighlightSettings", "m_highlightServerContextID") + 0x8;
         public uint PlayerGlowThroughWall => _ini.Get("RecvTable.DT_HighlightSettings", "m_highlightServerContextID") + 0x10;
+        public uint PlayerGlowColor => _ini.Get("RecvTable.DT_HighlightSettings", "m_highlightParams") + 0x18;
         public uint PlayerLifeState => _ini.Get("RecvTable.DT_Player", "m_lifeState");
         public uint PlayerName => _ini.Get("RecvTable.DT_BaseEntity", "m_iName");
         public uint PlayerTeamNum => _ini.Get("RecvTable.DT_BaseEntity", "m_iTeamNum");
