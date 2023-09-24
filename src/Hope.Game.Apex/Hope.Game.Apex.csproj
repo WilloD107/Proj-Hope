@@ -13,6 +13,6 @@
     <ProjectReference Include="..\Hope.Driver.Linux\Hope.Driver.Linux.csproj" />
     <ProjectReference Include="..\Hope.Game.Apex.Core\Hope.Game.Apex.Core.csproj" />
     <ProjectReference Include="..\Hope.Game.Apex.Feature.Aim\Hope.Game.Apex.Feature.Aim.csproj" />
-    ///<ProjectReference Include="..\Hope.Game.Apex.Feature.Sense\Hope.Game.Apex.Feature.Sense.csproj" />///
+    <ProjectReference Include="..\Hope.Game.Apex.Feature.Sense\Hope.Game.Apex.Feature.Sense.csproj" />
   </ItemGroup>
 </Project>
