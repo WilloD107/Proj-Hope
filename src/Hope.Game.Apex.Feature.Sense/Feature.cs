@@ -1,5 +1,7 @@
 ﻿using Hope.Game.Apex.Core;
 using Hope.Game.Apex.Core.Interfaces;
+using Tanya.Game.Apex.Core.Models;
+using Tanya.Core.Models;
 
 namespace Hope.Game.Apex.Feature.Sense
 {
@@ -30,9 +32,9 @@ namespace Hope.Game.Apex.Feature.Sense
                         {
                             player.GlowEnable = (byte)1;
                             player.GlowThroughWalls = (byte)player.Visible ? 1 : 2;
-                            player.GlowColor = new Vector(15.0, 10.0, 0.0);
+                            player.GlowColor = (player.Visible? new Vector(10.0f, 0.0f, 0.0f) : new Vector(0.0f, 11.0f, 15.0f));
                         }
-                        else if (player.GlowEnable is 5 or 7)
+                        else if (player.GlowEnable is 1 or 7))
                         {
                             player.GlowEnable = 2;
                             player.GlowThroughWalls = 5;
