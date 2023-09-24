@@ -28,8 +28,9 @@ namespace Hope.Game.Apex.Feature.Sense
                     {
                         if (localPlayer.LocalOrigin.Distance2(player.LocalOrigin) * Constants.UnitToMeter < _config.Distance)
                         {
-                            player.GlowEnable = (byte)(player.Visible ? 5 : 7);
-                            player.GlowThroughWalls = (byte)(player.Visible ? 1 : 2);
+                            player.GlowEnable = (byte)1;
+                            player.GlowThroughWalls = (byte)player.Visible ? 1 : 2;
+                            player.GlowColor = new Vector(15.0, 10.0, 0.0);
                         }
                         else if (player.GlowEnable is 5 or 7)
                         {
