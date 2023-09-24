@@ -1,7 +1,7 @@
 ﻿using Hope.Game.Apex.Core;
 using Hope.Game.Apex.Core.Interfaces;
-using Tanya.Game.Apex.Core.Models;
-using Tanya.Core.Models;
+using Hope.Game.Apex.Core.Models;
+using Hope.Core.Models;
 
 namespace Hope.Game.Apex.Feature.Sense
 {
