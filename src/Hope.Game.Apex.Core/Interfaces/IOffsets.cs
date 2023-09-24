@@ -17,6 +17,7 @@
         uint PlayerDuckState { get; }
         uint PlayerGlowEnable { get; }
         uint PlayerGlowThroughWall { get; }
+        uint PlayerGlowColor { get; }
         uint PlayerLifeState { get; }
         uint PlayerName { get; }
         uint PlayerTeamNum { get; }
