@@ -15,6 +15,7 @@ namespace Hope.Game.Apex.Core.Models
         private readonly Access<byte> _duckState;
         private readonly Access<byte> _glowEnable;
         private readonly Access<byte> _glowThroughWalls;
+        private readonly Access<Vector> _glowColor;
         private readonly LastVisibleTime _lastVisibleTime;
         private readonly Access<byte> _lifeState;
         private readonly Access<Vector> _localOrigin;
@@ -31,6 +32,7 @@ namespace Hope.Game.Apex.Core.Models
             _duckState = driver.Access(address + offsets.PlayerDuckState, ByteType.Instance);
             _glowEnable = driver.Access(address + offsets.PlayerGlowEnable, ByteType.Instance);
             _glowThroughWalls = driver.Access(address + offsets.PlayerGlowThroughWall, ByteType.Instance);
+            _glowColor = driver.Access(address + offsets.PlayerGlowColor, VectorType.Instance);
             _lastVisibleTime = new LastVisibleTime(driver.Access(address + offsets.EntityLastVisibleTime, SingleType.Instance));
             _lifeState = driver.Access(address + offsets.PlayerLifeState, ByteType.Instance);
             _localOrigin = driver.Access(address + offsets.EntityLocalOrigin, VectorType.Instance);
@@ -86,6 +88,13 @@ namespace Hope.Game.Apex.Core.Models
             set => _glowThroughWalls.Set(value);
         }
 
+        [JsonPropertyName("glowColor")]
+        public Vector GlowColor
+        {
+            get => _glowColor.Get();
+            set => _glowColor.Set(value);
+        }
+        
         [JsonPropertyName("lifeState")]
         public byte LifeState
         {
@@ -141,6 +150,7 @@ namespace Hope.Game.Apex.Core.Models
             _duckState.Update(frameTime);
             _glowEnable.Update(frameTime);
             _glowThroughWalls.Update(frameTime);
+            _glowColor.Update(frameTime);
             _lastVisibleTime.Update(frameTime);
             _lifeState.Update(frameTime);
             _localOrigin.Update(frameTime);
